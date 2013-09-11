@@ -1,0 +1,166 @@
+
+.error,
+.notice, 
+.success    { padding: .8em; margin-bottom: 1em; border: 2px solid #ddd; }
+
+.error      { background: #FBE3E4; color: #8a1f11; border-color: #FBC2C4; }
+.notice     { background: #FFF6BF; color: #514721; border-color: #FFD324; }
+.success    { background: #E6EFC2; color: #264409; border-color: #C6D880; }
+.error a    { color: #8a1f11; }
+.notice a   { color: #514721; }
+.success a  { color: #264409; }
+
+/* typo settings */
+html {
+  background: #C8D08A;
+  color: #1E5A41;
+}
+a  {
+  color: #1E5A41;
+  -webkit-transition: all .7s ease .1s;
+  -moz-transition: all .7s ease .1s;
+  -ms-transition: all .7s ease .1s;
+  -o-transition: all .7s ease .1s;
+  transition: all .7s ease .1s;
+}
+body {
+	font-family: "Karla", 'Ubuntu', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,strong {
+}
+em {
+}
+
+
+img {
+	max-width: 100%;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+.main-title {
+	text-align: center;
+	font-size: 4em;
+}
+
+.card {
+  position: relative;
+  max-width: 36em;
+  margin: 1em auto;
+  min-height: 20em;
+  font-size: 1.2em;
+}
+
+.definition {
+  max-width: 34em;
+	padding: 2em 1em 4em;
+	background-color: #fff;
+  border-bottom: 5px solid #1E5A41;
+  line-height: 1.5em;
+  position: absolute;
+  z-index: 10;
+}
+
+.definition a {
+	display: block;
+	padding-left: 2em;
+	text-decoration: none;
+	color: #999;
+	-webkit-transition: all 1s ease .1s;
+	-moz-transition: all 1s ease .1s;
+	-ms-transition: all 1s ease .1s;
+	-o-transition: all 1s ease .1s;
+	transition: all 1s ease .1s;
+  position: relative;
+}
+
+.definition a:before {
+	content: "\2192";
+	left: 0;
+	position: absolute;
+  -webkit-transition: all 1s ease .1s;
+  -moz-transition: all 1s ease .1s;
+  -ms-transition: all 1s ease .1s;
+  -o-transition: all 1s ease .1s;
+  transition: all 1s ease .1s;
+}
+
+.definition a:active, .definition a.active, .definition a:focus, .definition a:hover {
+  color: #1E5A41;
+}
+
+.definition a:active:before, .definition a.active:before, .definition a:focus:before, .definition a:hover:before {
+  left: .8em;
+}
+
+.bulle {
+	position: absolute;
+	z-index: 0;
+	left: 3em;
+	top: 7em;
+	width: 26em;
+	padding: 1em;
+	border-radius: 4px;
+	top: 50%;
+  border-bottom: 1px solid #1E5A41;
+  background-color: #fff;
+  box-shadow: 0 0 15px #1E5A41;
+  
+  -webkit-transition: top 1s ease, left .5s ease, z-index .5s ease .2s, margin .5s ease .5s;
+  -ms-transition: top 1s ease, left .5s ease, z-index .5s ease .2s, margin .5s ease .5s;
+  -o-transition: top 1s ease, left .5s ease, z-index .5s ease .2s, margin .5s ease .5s;
+  transition: top 1s ease, left .5s ease, z-index .5s ease .2s, margin .5s ease .5s;
+}
+
+.bulle.active, .bulle:target {
+  z-index: 20;
+  left: -30em;
+  margin-left: 34em;
+}
+#inalienable.active, #inalienable:target {top: 5.5em;}
+#inconditionnel.active, #inconditionnel:target {top: 7em;}
+#cummulable.active, #cummulable:target {top: 8.5em;}
+#tous.active, #tous:target {top: 10em;}
+#vie.active, #vie:target {top: 11.5em;}
+#individuelle.active, #individuelle:target {top: 13em;}
+#exigence.active, #exigence:target {top: 14.5em;}
+#montant.active, #montant:target {top: 16em;}
+
+
+.zone {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  padding: 1em;
+  min-height: 250px;
+  border-bottom: 5px solid #1E5A41;
+  color: #1E5A41;
+  background: #fff;
+}
+
+.zone a {
+  color: #1E5A41;
+}
+
+.footer {
+  background: #C8D08A url(http://revenudebase.info/wp-content/themes/revenudebase/images/logo.png) no-repeat center bottom;
+  padding-bottom: 100px;
+}
+
+.about-author {
+	font-size: .8em;
+	font-style: italic;
+}
+
