@@ -83,7 +83,7 @@ img {
 .ss-container:before{
   position: absolute;
   width: 4px;
-  background: #000;
+  background: #1E5A41;
   top: 0px;
   left: 50%;
   margin-left: -2px;
