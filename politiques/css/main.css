@@ -94,6 +94,11 @@ img {
 }
 
 
+.about-author {
+  font-size: .8em;
+  font-style: italic;
+}
+
 @media screen and (max-width: 1024px) {
 	
   .zone {

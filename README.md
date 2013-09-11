@@ -8,3 +8,6 @@ http://revenu-de-base.simplement-web.com/chronologie
 
 Politiques : 
 http://revenu-de-base.simplement-web.com/politiques
+
+Définition : 
+http://revenu-de-base.simplement-web.com/definition

@@ -234,33 +234,9 @@ img {
   color: #1E5A41;
 }
 
-.zone-ecologiste, .zone-ecologiste a {
-  color: #7DA702;
-  border-color: #7DA702;
-}
-
-.zone-libertaire, .zone-libertaire a {
-  color: #9A1B7E;
-  border-color: #9A1B7E;
-}
-
-.zone-humaniste, .zone-humaniste a {
-  color: #FB7102;
-  border-color: #FB7102;
-}
-
-.zone-liberaux, .zone-liberaux a {
-  color: #08589D;
-  border-color: #08589D;
-}
-
-.zone-socialiste, .zone-socialiste a {
-  color: #E20040;
-  border-color: #E20040;
-}
-
 .footer {
   background: #C8D08A url(http://revenudebase.info/wp-content/themes/revenudebase/images/logo.png) no-repeat center bottom;
+  padding-bottom: 100px;
 }
 
 .about-author {
