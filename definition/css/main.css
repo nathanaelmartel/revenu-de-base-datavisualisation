@@ -12,8 +12,9 @@
 
 /* typo settings */
 html {
-  background: #C8D08A;
-  color: #1E5A41;
+  background: #fff;
+  color: #f1c40f;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
   overflow-x: hidden;
 }
 a  {
@@ -67,18 +68,20 @@ img {
 .definition {
   max-width: 34em;
 	padding: 2em 1em 4em;
-	background-color: #fff;
-  border-bottom: 5px solid #1E5A41;
+	background-color: #F1C40F;
+  border-bottom: 5px solid #3498DB;
   line-height: 1.5em;
   position: absolute;
   z-index: 10;
+  color: #fff;
 }
 
 .definition a {
 	display: block;
 	padding-left: 2em;
 	text-decoration: none;
-	color: #999;
+	color: #3498DB;
+	text-shadow: none;
 	-webkit-transition: all 1s ease .1s;
 	-moz-transition: all 1s ease .1s;
 	-ms-transition: all 1s ease .1s;
@@ -99,7 +102,7 @@ img {
 }
 
 .definition a:active, .definition a.active, .definition a:focus, .definition a:hover {
-  color: #1E5A41;
+  color: #34495E;
 }
 
 .definition a:active:before, .definition a.active:before, .definition a:focus:before, .definition a:hover:before {
@@ -115,11 +118,13 @@ img {
 	padding: 1em;
 	border-radius: 4px;
 	top: 50%;
-  border: 1px solid #1E5A41;
+  border: 1px solid #34495E;
   background-color: #fff;
-	-moz-box-shadow: 0 0 0 #1E5A41;
-	-webkit-box-shadow: 0 0 0 #1E5A41;
-  box-shadow: 0 0 0 #1E5A41;
+	-moz-box-shadow: 0 0 0 #3498DB;
+	-webkit-box-shadow: 0 0 0 #3498DB;
+  box-shadow: 0 0 0 #3498DB;
+  text-shadow: none;
+  color: #3498DB;
   
   -webkit-transition: top 1s ease, left .5s ease, z-index .5s ease .2s, box-shadow 1s ease, margin .5s ease .5s;
   -ms-transition: top 1s ease, left .5s ease, z-index .5s ease .2s, box-shadow 1s ease, margin .5s ease .5s;
@@ -146,22 +151,26 @@ img {
 
 
 .zone {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   padding: 1em;
   min-height: 250px;
-  border-bottom: 5px solid #1E5A41;
-  color: #1E5A41;
-  background: #fff;
+  border-bottom: 5px solid #f1c40f;
+  color: #3498DB;
+  text-shadow: none;
 }
 
 .zone a {
-  color: #1E5A41;
+  color: #3498DB;
+}
+
+.zone a:hover, .zone a:focus, .zone a:active {
+  color: #34495E;
 }
 
 .footer {
-  background: #C8D08A url(http://revenudebase.info/wp-content/themes/revenudebase/images/logo.png) no-repeat center bottom;
+  background: url(http://revenudebase.info/wp-content/themes/revenudebase/images/logo.png) no-repeat center bottom;
   padding-bottom: 100px;
 }
 

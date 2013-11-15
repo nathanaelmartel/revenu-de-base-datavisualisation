@@ -12,11 +12,12 @@
 
 /* typo settings */
 html {
-  background: #C8D08A;
-  color: #1E5A41;
+  background: #fff;
+  color: #f1c40f;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 a  {
-  color: #1E5A41;
+  color: #f1c40f;
   -webkit-transition: all .7s ease .1s;
   -moz-transition: all .7s ease .1s;
   -ms-transition: all .7s ease .1s;
@@ -24,7 +25,7 @@ a  {
   transition: all .7s ease .1s;
 }
 body {
-	font-family: "Karla", 'Ubuntu', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 h1,h2,h3,h4,h5,h6,strong {
 }
@@ -83,7 +84,7 @@ img {
 .ss-container:before{
   position: absolute;
   width: 4px;
-  background: #1E5A41;
+  background: #F1C40F;
   top: 0px;
   left: 50%;
   margin-left: -2px;
@@ -115,9 +116,9 @@ img {
     display: block;
     text-indent: -9000px;
     text-align: left;
-    -webkit-box-shadow: 0px 0px 0px 5px #1E5A41;
-    -moz-box-shadow: 0px 0px 0px 5px #1E5A41;
-    box-shadow: 0px 0px 0px 5px #1E5A41;
+    -webkit-box-shadow: 0px 0px 0px 5px #F1C40F;
+    -moz-box-shadow: 0px 0px 0px 5px #F1C40F;
+    box-shadow: 0px 0px 0px 5px #F1C40F;
   background-size: cover;
   background-color: #fff;
   background-repeat: no-repeat;
@@ -139,7 +140,7 @@ img {
 .ss-circle-deco:before{
   width: 29%;
   height: 0px;
-  border-bottom: 5px dotted #1E5A41;
+  border-bottom: 5px dotted #F1C40F;
   position: absolute;
   top: 50%;
   content: '';
@@ -180,7 +181,7 @@ img {
 .ss-container h3{
     margin-top: 34px;
   padding: 10px 15px;
-  background: #fff;
+  background: #F1C40F;
 }
 .ss-container .ss-medium h3{
   margin-top: 82px;
@@ -189,29 +190,29 @@ img {
   margin-top: 133px;
 }
 .ss-container .ss-left h3{
-  border-right: 5px solid #1E5A41;
+  border-right: 5px solid #3498DB;
 }
 .ss-container .ss-right h3{
-  border-left: 5px solid #1E5A41;
+  border-left: 5px solid #3498DB;
 }
 .ss-container h3 span{
-    font-size: 2em;
+    font-size: 1.8em;
     display: block;
     padding-bottom: 5px;
-    font-family: 'neogreyregular', Arial;
-    font-weight: normal;
     font-style: normal;
+    color: #fff;
 }
 .ss-container h3 a{
     font-size: 1em;
     display: block;
     text-decoration: none;
-    color: #808080;
+    color: #3498DB;
     font-weight: normal;
    overflow: hidden;
+   text-shadow: none;
 }
 .ss-container h3 a:hover{
-  color: #1E5A41;
+  color: #34495E;
 }
 
 .main-title {
@@ -225,17 +226,21 @@ img {
 	box-sizing: border-box;
   padding: 1em;
   min-height: 250px;
-  border-bottom: 5px solid #1E5A41;
-  color: #1E5A41;
-  background: #fff;
+  border-bottom: 5px solid #f1c40f;
+  color: #3498DB;
+  text-shadow: none;
 }
 
 .zone a {
-  color: #1E5A41;
+  color: #3498DB;
+}
+
+.zone a:hover, .zone a:focus, .zone a:active {
+  color: #34495E;
 }
 
 .footer {
-  background: #C8D08A url(http://revenudebase.info/wp-content/themes/revenudebase/images/logo.png) no-repeat center bottom;
+  background: url(http://revenudebase.info/wp-content/themes/revenudebase/images/logo.png) no-repeat center bottom;
   padding-bottom: 100px;
 }
 

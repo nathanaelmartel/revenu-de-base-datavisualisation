@@ -12,11 +12,12 @@
 
 /* typo settings */
 html {
-  background: #C8D08A;
-  color: #1E5A41;
+  background: #fff;
+  color: #f1c40f;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 a  {
-  color: #1E5A41;
+  color: #F1C40F;
   -webkit-transition: all .7s ease .1s;
   -moz-transition: all .7s ease .1s;
   -ms-transition: all .7s ease .1s;
@@ -139,8 +140,8 @@ body.initial .section .card-lvl-1:after {
   left: 50%;
   width: 0;
   height: 1.5em;
-  border-left: 2px solid #1E5A41;
-  border-right: 2px solid #1E5A41;
+  border-left: 2px solid #F1C40F;
+  border-right: 2px solid #F1C40F;
   z-index: 5;
 }
 
@@ -152,8 +153,8 @@ body.initial .section .card-lvl-1:after {
   left: 50%;
   width: 100%;
   height: 0;
-  border-top: 2px solid #1E5A41;
-  border-bottom: 2px solid #1E5A41;
+  border-top: 2px solid #F1C40F;
+  border-bottom: 2px solid #F1C40F;
 }
 
 .grid-container li.grid:last-child:before {
@@ -168,8 +169,8 @@ body.initial .section .card-lvl-1:after {
   right: 0;
   width: 0;
   height: 0;
-  border-top: 2px solid #1E5A41;
-  border-bottom: 2px solid #1E5A41;
+  border-top: 2px solid #F1C40F;
+  border-bottom: 2px solid #F1C40F;
   
   -webkit-transition: all .2s ease;
   -ms-transition: all .2s ease;
@@ -190,8 +191,8 @@ body.initial .section .card-lvl-1:after {
   width: 0;
   bottom: -1.9em;
   height: 1.9em;
-  border-left: 2px solid #1E5A41;
-  border-right: 2px solid #1E5A41;
+  border-left: 2px solid #F1C40F;
+  border-right: 2px solid #F1C40F;
   
   -webkit-transition: all .2s ease .3s;
   -ms-transition: all .2s ease .3s;
@@ -204,9 +205,9 @@ body.initial .section .card-lvl-1:after {
 
 .card.card-lvl-1 {
   width: 200px;
-  -moz-box-shadow: 0 0 1px #1E5A41;
-  -webkit-box-shadow: 0 0 1px #1E5A41;
-  box-shadow: 0 0 1px #1E5A41;
+  -moz-box-shadow: 0 0 1px #F1C40F;
+  -webkit-box-shadow: 0 0 1px #F1C40F;
+  box-shadow: 0 0 1px #F1C40F;
 }
 
 .card {
@@ -217,9 +218,9 @@ body.initial .section .card-lvl-1:after {
   box-sizing: border-box;
   padding: .5em;
   min-height: 7em;
-  border-bottom: 5px solid #1E5A41;
-  color: #1E5A41;
-  background: #fff;
+  border-bottom: 5px solid #3498DB;
+  color: #fff;
+  background: #F1C40F;
   border-radius: 3px;
   position: relative;
   display: block;
@@ -229,9 +230,9 @@ body.initial .section .card-lvl-1:after {
 
 
 .card, .grid-container li.grid:before, .grid-container li.grid:after, .card-lvl-1:after {
-  -moz-box-shadow: 0 0 0 #1E5A41;
-  -webkit-box-shadow: 0 0 0 #1E5A41;
-  box-shadow: 0 0 0 #1E5A41;
+  -moz-box-shadow: 0 0 0 #F1C40F;
+  -webkit-box-shadow: 0 0 0 #F1C40F;
+  box-shadow: 0 0 0 #F1C40F;
   
   -webkit-transition: all 1s ease .1s;
   -ms-transition: all 1s ease .1s;
@@ -241,9 +242,9 @@ body.initial .section .card-lvl-1:after {
 
 .card:hover, .card:hover+ul .card, .card:hover+ul .grid:before, .card:hover+ul .grid:after, .card-lvl-1.card:hover:after,
 .card:focus, .card:active {
-  -moz-box-shadow: 0 0 15px #1E5A41;
-  -webkit-box-shadow: 0 0 15px #1E5A41;
-  box-shadow: 0 0 15px #1E5A41;
+  -moz-box-shadow: 0 0 15px #F1C40F;
+  -webkit-box-shadow: 0 0 15px #F1C40F;
+  box-shadow: 0 0 15px #F1C40F;
 }
 ul a.card:hover, ul a.card:active, ul a.card:focus {
   -moz-transform: scale(1.1, 1.1);
@@ -298,7 +299,7 @@ p.link span {
   display: block;
   padding-left: 2em;
   text-decoration: none;
-  color: #999;
+  color: #3498DB;
   -webkit-transition: all 1s ease .1s;
   -moz-transition: all 1s ease .1s;
   -ms-transition: all 1s ease .1s;
@@ -319,7 +320,7 @@ p.link span:before {
 }
 
 a.card:active p.link span, a.card.active p.link span, a.card:focus p.link span, a.card:hover p.link span{
-  color: #1E5A41;
+  color: #34495E;
 }
 
 a.card:active p.link span:before, a.card.active p.link span:before, a.card:focus p.link span:before, a.card:hover p.link span:before {
@@ -337,13 +338,13 @@ a.card:active p.link span:before, a.card.active p.link span:before, a.card:focus
   padding: .5em;
   border-radius: 4px;
   background-color: #fff;
-  -moz-box-shadow: 0 0 0 #1E5A41;
-  -webkit-box-shadow: 0 0 0 #1E5A41;
-  box-shadow: 0 0 0 #1E5A41;
+  -moz-box-shadow: 0 0 0 #F1C40F;
+  -webkit-box-shadow: 0 0 0 #F1C40F;
+  box-shadow: 0 0 0 #F1C40F;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 1px solid #1E5A41;
+  border: 1px solid #F1C40F;
   -moz-transform: scale(0.1, 0.1);
   -ms-transform: scale(0.1, 0.1);
   -o-transform: scale(0.1, 0.1);
@@ -353,6 +354,8 @@ a.card:active p.link span:before, a.card.active p.link span:before, a.card:focus
   -o-transform-origin: 0 50%;
   -webkit-transform-origin: 0 50%;
   transform-origin: 0 50%;
+  color: #3498DB;
+  text-shadow: none;
   
   opacity: 0;
   
@@ -371,23 +374,28 @@ a.card:active p.link span:before, a.card.active p.link span:before, a.card:focus
   opacity: 1;
 }
 
+
 .zone {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   padding: 1em;
   min-height: 250px;
-  border-bottom: 5px solid #1E5A41;
-  color: #1E5A41;
-  background: #fff;
+  border-bottom: 5px solid #f1c40f;
+  color: #3498DB;
+  text-shadow: none;
 }
 
 .zone a {
-  color: #1E5A41;
+  color: #3498DB;
+}
+
+.zone a:hover, .zone a:focus, .zone a:active {
+  color: #34495E;
 }
 
 .footer {
-  background: #C8D08A url(http://revenudebase.info/wp-content/themes/revenudebase/images/logo.png) no-repeat center bottom;
+  background: url(http://revenudebase.info/wp-content/themes/revenudebase/images/logo.png) no-repeat center bottom;
   padding-bottom: 100px;
 }
 

@@ -17,7 +17,6 @@ html {
 }
 body {
 	font-family: 'Ubuntu', sans-serif;
-	background: #EEE;
 	height: 100%;
 }
 h1,h2,h3,h4,h5,h6,strong {
@@ -55,13 +54,16 @@ img {
 	float: left;
   padding: 1em;
   min-height: 250px;
-  border-bottom: 5px solid #1E5A41;
-  color: #1E5A41;
-  background: #fff;
+  border-bottom: 5px solid #3498DB;
+  color: #fff;
 }
 
 .zone a {
-  color: #1E5A41;
+  color: #fff;
+}
+
+.zone a:hover, .zone a:focus, .zone a:active {
+  color: #3498DB;
 }
 
 .zone-ecologiste, .zone-ecologiste a {
@@ -90,7 +92,8 @@ img {
 }
 
 .footer {
-  background: #C8D08A url(http://revenudebase.info/wp-content/themes/revenudebase/images/logo.png) no-repeat center bottom;
+  background: #F1C40F url(http://revenudebase.info/wp-content/themes/revenudebase/images/logo.png) no-repeat center bottom;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 
 
