@@ -10,7 +10,7 @@ html {
 	line-height: 32px;
   font-size: 12px;
 	border-bottom: 1px solid #555;
-	background: #666 url(images/common-header.png) no-repeat 1em center;
+	background: #666 url(images/common-header.png) no-repeat 1em 8px;
 	position: fixed;
   top: 0;
   width: 100%;
@@ -56,7 +56,7 @@ html {
         padding: 1em 0;
 }
 .common-header .liens a {
-      color: #F1C40F;
+      color: #ECD078;
       text-decoration: none;
       display: block;
       padding: 0 1em;
@@ -124,3 +124,52 @@ body.logged-in .common-header {
 body span.blackstrip {
 	display: none;
 }
+
+
+
+label[for^="toggle"], [type=checkbox] {cursor: pointer}
+label[for^="toggle"] + [type=checkbox], #toggle-common-header {display: none}
+
+@media (max-width: 767px) {
+  
+  [data-icon]:before {
+    content: attr(data-icon);
+  }
+  
+  label[for^="toggle"] {
+    position: absolute; 
+    top: 5px; right: 0px;
+    z-index: 1337;
+    padding: 0 0.3em;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: .7em;
+    border-radius: 4px;
+    color: #2D2D2D;
+  }
+
+  #toggle-common-header:checked ~ ul {
+    max-height: 25em !important; /* number of menu items x5em*/
+  }
+  #toggle-common-header ~ ul {
+    height: auto;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .4s;
+    -moz-transition: max-height .4s;
+    -o-transition: max-height .4s;
+    -ms-transition: max-height .4s;
+    transition: max-height .4s;
+  }
+  #toggle-common-header ~ ul.rsalc {
+    width: 32px;
+    padding-right: 5em;
+  }
+  #toggle-common-header ~ ul.liens li {
+    float: none;
+  }
+}
+
+
+
+
