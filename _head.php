@@ -22,6 +22,12 @@
     <link rel="stylesheet" href="/css/revenudebase-simplementNat.css" type="text/css" />
     <link rel="stylesheet" href="/css/common-header.css" type="text/css" />
     
+	  <meta property="og:title" content="<?php echo $title?>" />
+	  <meta property="og:description" content="<?php echo $title?>" />
+	  <meta property="og:image" content="<?php echo $_SERVER['QUERY_STRING'] ?>/printscreen.png" />
+	  <meta property="og:url" content="<?php echo $_SERVER['QUERY_STRING'] ?>" />
+	  	
+    
     <?php include('_piwik.php')?>
 
   </head>
