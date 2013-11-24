@@ -24,7 +24,7 @@
     
 	  <meta property="og:title" content="<?php echo $title?>" />
 	  <meta property="og:description" content="<?php echo $title?>" />
-	  <meta property="og:image" content="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] ?>/printscreen.png" />
+	  <meta property="og:image" content="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] ?>printscreen.png" />
 	  <meta property="og:url" content="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] ?>" />
 	  	
     
