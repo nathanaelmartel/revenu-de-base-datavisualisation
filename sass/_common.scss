@@ -1,0 +1,112 @@
+
+.error,
+.notice, 
+.success    { padding: .8em; margin-bottom: 1em; border: 2px solid #ddd; }
+
+.error      { background: #FBE3E4; color: #8a1f11; border-color: #FBC2C4; }
+.notice     { background: #FFF6BF; color: #514721; border-color: #FFD324; }
+.success    { background: #E6EFC2; color: #264409; border-color: #C6D880; }
+.error a    { color: #8a1f11; }
+.notice a   { color: #514721; }
+.success a  { color: #264409; }
+
+/* typo settings */
+html {
+  background: #fff;
+  color: #D95B43;
+  border-bottom: 5px solid $main_color;
+}
+a  {
+  color: $main_color;
+  -webkit-transition: all .7s ease .1s;
+  -moz-transition: all .7s ease .1s;
+  -ms-transition: all .7s ease .1s;
+  -o-transition: all .7s ease .1s;
+  transition: all .7s ease .1s;
+}
+body {
+	font-family: "Karla", 'Ubuntu', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,strong {
+}
+em {
+}
+
+
+img {
+	max-width: 100%;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+.main-title {
+	text-align: center;
+	font-size: 4em;
+}
+
+.zone {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 1em;
+  min-height: 250px;
+  color: #D95B43;
+  text-shadow: none;
+}
+
+.zone a {
+  color: #D95B43;
+}
+
+.zone a:hover, .zone a:focus, .zone a:active {
+  color: #D95B43;
+}
+
+.footer {
+  background: url(http://revenudebase.info/wp-content/uploads/2013/11/logo-ok-150x150.png) no-repeat center bottom;
+  padding-bottom: 150px;
+  max-width: 36em;
+  margin: 1em auto;
+}
+
+a.sign-button {
+	background-color: $alternate_color;
+	background-image: url("http://revenudebase.info/wp-content/themes/wisdom/images/blackgr.png");
+	background-position: center bottom;
+	background-repeat: repeat-x;
+	border: 0 none;
+	border-radius: 4px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: block;
+	font-size: 19px;
+	height: 36px;
+	line-height: 36px;
+	margin: 1em auto;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0);
+	width: 230px;
+	&:hover, &:active, &:focus {
+    color: #FFFFFF;
+    background-color: $main_color;
+	}
+}
+
+.about-author {
+  font-size: .8em;
+  font-style: italic;
+}
+
+

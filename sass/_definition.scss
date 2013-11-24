@@ -1,0 +1,97 @@
+
+.page-definition {
+	.card {
+	  position: relative;
+	  max-width: 36em;
+	  margin: 1em auto;
+	  min-height: 20em;
+	  font-size: 1.2em;
+	}
+	
+	.definition {
+	  max-width: 34em;
+		padding: 2em 1em 4em;
+		background-color: $main_color;
+	  border-bottom: 5px solid $alternate_color;
+	  line-height: 1.5em;
+	  position: absolute;
+	  z-index: 10;
+	  color: $text_color;
+	}
+	
+	.definition a {
+		display: block;
+		padding-left: 2em;
+		text-decoration: none;
+		color: $alternate_color;
+		text-shadow: none;
+		-webkit-transition: all 1s ease .1s;
+		-moz-transition: all 1s ease .1s;
+		-ms-transition: all 1s ease .1s;
+		-o-transition: all 1s ease .1s;
+		transition: all 1s ease .1s;
+	  position: relative;
+	}
+	
+	.definition a:before {
+		content: "\2192";
+		left: 0;
+		position: absolute;
+	  -webkit-transition: all 1s ease .1s;
+	  -moz-transition: all 1s ease .1s;
+	  -ms-transition: all 1s ease .1s;
+	  -o-transition: all 1s ease .1s;
+	  transition: all 1s ease .1s;
+	}
+	
+	.definition a:active, .definition a.active, .definition a:focus, .definition a:hover {
+	  color: $link_hover;
+	}
+	
+	.definition a:active:before, .definition a.active:before, .definition a:focus:before, .definition a:hover:before {
+	  left: .8em;
+	}
+	
+	.bulle {
+		position: absolute;
+		z-index: 0;
+		left: 3em;
+		top: 7em;
+		width: 26em;
+		padding: 1em;
+		border-radius: 4px;
+		top: 50%;
+	  border: 1px solid $link_hover;
+	  background-color: #fff;
+		-moz-box-shadow: 0 0 0 $alternate_color;
+		-webkit-box-shadow: 0 0 0 $alternate_color;
+	  box-shadow: 0 0 0 $alternate_color;
+	  text-shadow: none;
+	  color: $alternate_color;
+	  
+	  -webkit-transition: top 1s ease, left .5s ease, z-index .5s ease .2s, box-shadow 1s ease, margin .5s ease .5s;
+	  -ms-transition: top 1s ease, left .5s ease, z-index .5s ease .2s, box-shadow 1s ease, margin .5s ease .5s;
+	  -o-transition: top 1s ease, left .5s ease, z-index .5s ease .2s, box-shadow 1s ease, margin .5s ease .5s;
+	  transition: top 1s ease, left .5s ease, z-index .5s ease .2s, box-shadow 1s ease, margin .5s ease .5s;
+	}
+	
+	.bulle.active, .bulle:target {
+	  z-index: 20;
+	  left: -30em;
+	  margin-left: 34em;
+	  -moz-box-shadow: 0 0 15px #1E5A41;
+	  -webkit-box-shadow: 0 0 15px #1E5A41;
+	  box-shadow: 0 0 15px #1E5A41;
+	}
+	#inalienable.active, #inalienable:target {top: 5.5em;}
+	#inconditionnel.active, #inconditionnel:target {top: 7em;}
+	#cummulable.active, #cummulable:target {top: 8.5em;}
+	#tous.active, #tous:target {top: 10em;}
+	#vie.active, #vie:target {top: 11.5em;}
+	#individuelle.active, #individuelle:target {top: 13em;}
+	#exigence.active, #exigence:target {top: 14.5em;}
+	#montant.active, #montant:target {top: 16em;}
+	
+	
+}
+

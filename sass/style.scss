@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+
+
+$main_color: #ECD078; //jaune
+$alternate_color: #0B486B; //bleu
+$minor_color: #d6a615;
+
+$text_color: #9A2A15; //brick
+$link_hover: #542437; //violet
+
+/*
+pallette :
+542437 violet
+0B486B bleu
+D95B43 brick
+C02942 rose sombre
+ECD078 jaune
+*/
+
+@import 'cssreset';
+@import 'cssbase';
+@import 'common';
+@import 'financement';
+@import 'definition';
