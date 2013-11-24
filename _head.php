@@ -24,8 +24,8 @@
     
 	  <meta property="og:title" content="<?php echo $title?>" />
 	  <meta property="og:description" content="<?php echo $title?>" />
-	  <meta property="og:image" content="<?php echo $_SERVER['QUERY_STRING'] ?>/printscreen.png" />
-	  <meta property="og:url" content="<?php echo $_SERVER['QUERY_STRING'] ?>" />
+	  <meta property="og:image" content="<?php echo $_SERVER['HTTP_HOST'].$_SERVER['URI'] ?>/printscreen.png" />
+	  <meta property="og:url" content="<?php echo $_SERVER['HTTP_HOST'].$_SERVER['URI'] ?>" />
 	  	
     
     <?php include('_piwik.php')?>
