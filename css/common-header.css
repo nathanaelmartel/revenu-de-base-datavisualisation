@@ -71,8 +71,8 @@ html {
   
 .rsalc {
     float: right;
-    padding-right: 1em;
-    width: 192px;
+    padding: 0 1em 0 0;
+    width: 210px;
     margin: 0;
 }
 .rsalc li {
