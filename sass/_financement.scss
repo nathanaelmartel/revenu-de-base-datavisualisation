@@ -463,11 +463,11 @@ a.card:active p.link span:before, a.card.active p.link span:before, a.card:focus
 }
 
 @media screen and (max-width: 767px) {
-	body .section .grid-container { 
+	.section .grid-container { 
 	  float: none;
 	  width: 100% !important;
 	}
-	body .section .grid-container ul {
+	.section .grid-container ul {
 	  -moz-transform: scale(1, 1);
 	  -ms-transform: scale(1, 1);
 	  -o-transform: scale(1, 1);
@@ -476,26 +476,26 @@ a.card:active p.link span:before, a.card.active p.link span:before, a.card:focus
 	  opacity: 1;
 	}
 	
-	body .section .grid-container .card-lvl-1:after {
+	.section .grid-container .card-lvl-1:after {
 	  bottom: -1.9em;
 	  height: 1.9em;
 	}
 	
-	body .section .card-lvl-1.card {  
+	.section .card-lvl-1.card {  
 	  -moz-transform: translateX(-4em);
 	  -ms-transform: translateX(-4em);
 	  -o-transform: translateX(-4em);
 	  -webkit-transform: translateX(-4em);
 	  transform: translateX(-4em);
 	}
-	body .section .card-lvl-1.card:after {
+	.section .card-lvl-1.card:after {
 	  left: calc(50% + 4em);
 	}
-	body .section .card-lvl-1:before {
+	.section .card-lvl-1:before {
 	  right: -10%;
 	  width: 10%;
 	}
-	body .section .card .bulle {
+	.section .card .bulle {
 	  -moz-transform: scale(1, 1);
 	  -ms-transform: scale(1, 1);
 	  -o-transform: scale(1, 1);
