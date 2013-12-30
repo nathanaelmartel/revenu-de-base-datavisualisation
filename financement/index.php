@@ -14,7 +14,7 @@
     
     <section class="section">
     <div class="redistribution grid-container">
-      <div class="card card-lvl-1">
+      <div class="card card-lvl-1" href="#">
         <h2>Redistribution</h2>
         <p class="bulle">Améliorer le système actuelle en prenant aux plus riches pour donner à tous, de manière plus juste et équitable.</p>
       </div>
@@ -53,7 +53,7 @@
     </div>
     
     <div class="creation grid-container">
-      <div class="card card-lvl-1">
+      <div class="card card-lvl-1" href="#">
         <h2>Approche Monétaire</h2>
         <p class="bulle">Repenser le fonctionnement de la monnaie : de sa création à sa destruction dans le cycle économique.</p>
       </div>
@@ -71,7 +71,7 @@
     </div>
     
     <div class="partage grid-container">
-      <div class="card card-lvl-1">
+      <div class="card card-lvl-1" href="#">
         <h2>Partage <br />du Patrimoine Naturel Commun</h2>
         <p class="bulle">Le patrimoine naturel commun appartient à tous. Toutes personnes qui s'en approprient une partie doivent indémniser ses concitoyens.</p>
       </div>
