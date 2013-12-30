@@ -178,7 +178,7 @@ body.initial .section .card-lvl-1:after {
   transition: all .2s ease;
 }
 
-.card-lvl-1:hover:before {
+.card-lvl-1:hover:before, .card-lvl-1:focus:before {
   right: -10%;
   width: 10%;
 }
@@ -199,7 +199,7 @@ body.initial .section .card-lvl-1:after {
   -o-transition: all .2s ease .3s;
   transition: all .2s ease .3s;
 }
-.card-lvl-1.card:hover:after {
+.card-lvl-1.card:hover:after, .card-lvl-1.card:focus:after {
   left: calc(50% + 4em);
 }
 
@@ -241,6 +241,7 @@ body.initial .section .card-lvl-1:after {
 }
 
 .card:hover, .card:hover+ul .card, .card:hover+ul .grid:before, .card:hover+ul .grid:after, .card-lvl-1.card:hover:after,
+.card:focus, .card:focus+ul .card, .card:focus+ul .grid:before, .card:focus+ul .grid:after, .card-lvl-1.card:focus:after,
 .card:focus, .card:active {
   -moz-box-shadow: 0 0 15px $main_color;
   -webkit-box-shadow: 0 0 15px $main_color;
@@ -254,7 +255,7 @@ ul a.card:hover, ul a.card:active, ul a.card:focus {
   transform: scale(1.1, 1.1);
 }
 
-.card-lvl-1.card:hover {  
+.card-lvl-1.card:hover, .card-lvl-1.card:focus {  
   -moz-transform: translateX(-4em);
   -ms-transform: translateX(-4em);
   -o-transform: translateX(-4em);
@@ -319,11 +320,11 @@ p.link span:before {
   transition: all 1s ease .1s;
 }
 
-a.card:active p.link span, a.card.active p.link span, a.card:focus p.link span, a.card:hover p.link span{
+a.card:active p.link span, a.card.active p.link span, a.card:focus p.link span, a.card:hover p.link span, a.card:focus p.link span{
   color: $link_hover;
 }
 
-a.card:active p.link span:before, a.card.active p.link span:before, a.card:focus p.link span:before, a.card:hover p.link span:before {
+a.card:active p.link span:before, a.card.active p.link span:before, a.card:focus p.link span:before, a.card:hover p.link span:before, a.card:focus p.link span:before {
   left: .8em;
 }
 
@@ -365,7 +366,7 @@ a.card:active p.link span:before, a.card.active p.link span:before, a.card:focus
   transition: opacity .3s ease .2s, transform .5s ease .2s;
 }
 
-.card:hover .bulle, .bulle.active, .bulle:target {
+.card:hover .bulle, .bulle.active, .card:focus .bulle, .bulle.active, .bulle:target {
   -moz-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   -o-transform: scale(1, 1);
@@ -376,7 +377,7 @@ a.card:active p.link span:before, a.card.active p.link span:before, a.card:focus
 
 
 @media screen and (max-width: 1200px) and (min-width: 768px) {
-	.section:hover .grid-container {
+	.section:hover .grid-container, .section:focus .grid-container {
 	  width: 10%;
 	}
 	
@@ -398,11 +399,11 @@ a.card:active p.link span:before, a.card.active p.link span:before, a.card:focus
 	  bottom: 0;
 	}
 	
-	.section:hover .grid-container:hover {
+	.section:hover .grid-container:hover, .section:hover .grid-container:focus {
 	  width: 80%;
 	}
 	
-	.section:hover .grid-container:hover ul {
+	.section:hover .grid-container:hover ul, .section:focus .grid-container:focus ul {
 	  -moz-transform: scale(1, 1);
 	  -ms-transform: scale(1, 1);
 	  -o-transform: scale(1, 1);
@@ -411,7 +412,7 @@ a.card:active p.link span:before, a.card.active p.link span:before, a.card:focus
 	  opacity: 1;
 	}
 	
-	.section:hover .grid-container:hover .card-lvl-1:after {
+	.section:hover .grid-container:hover .card-lvl-1:after, .section:focus .grid-container:focus .card-lvl-1:after {
 	  bottom: -1.9em;
 	  height: 1.9em;
 	}
@@ -436,7 +437,7 @@ a.card:active p.link span:before, a.card.active p.link span:before, a.card:focus
 	  -o-transition: all 1s ease .1s;
 	  transition: all 1s ease .1s;
 	}
-	.section:hover .grid-container:hover h3 {
+	.section:hover .grid-container:hover h3, .section:hover .grid-container:focus h3 {
     width: auto;
     
     -moz-transform: rotateZ(0) translateX(0);
@@ -450,7 +451,7 @@ a.card:active p.link span:before, a.card.active p.link span:before, a.card:focus
 	  overflow: hidden;
 	  opacity: 0;
   }
-  .section:hover .grid-container:hover ul .card p {
+  .section:hover .grid-container:hover ul .card p, .section:focus .grid-container:focus ul .card p {
     max-height: 30em;
     opacity: 1;
     

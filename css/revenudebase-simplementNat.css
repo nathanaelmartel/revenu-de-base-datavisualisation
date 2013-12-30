@@ -500,7 +500,7 @@ body.initial .section .card-lvl-1:after {
   -ms-transition: all .2s ease;
   -o-transition: all .2s ease;
   transition: all .2s ease; }
-.page-financement .card-lvl-1:hover:before {
+.page-financement .card-lvl-1:hover:before, .page-financement .card-lvl-1:focus:before {
   right: -10%;
   width: 10%; }
 .page-financement .card-lvl-1:after {
@@ -517,7 +517,7 @@ body.initial .section .card-lvl-1:after {
   -ms-transition: all .2s ease .3s;
   -o-transition: all .2s ease .3s;
   transition: all .2s ease .3s; }
-.page-financement .card-lvl-1.card:hover:after {
+.page-financement .card-lvl-1.card:hover:after, .page-financement .card-lvl-1.card:focus:after {
   left: calc(50% + 4em); }
 .page-financement .card.card-lvl-1 {
   width: 200px;
@@ -549,6 +549,7 @@ body.initial .section .card-lvl-1:after {
   -o-transition: all 1s ease .1s;
   transition: all 1s ease .1s; }
 .page-financement .card:hover, .page-financement .card:hover + ul .card, .page-financement .card:hover + ul .grid:before, .page-financement .card:hover + ul .grid:after, .page-financement .card-lvl-1.card:hover:after,
+.page-financement .card:focus, .page-financement .card:focus + ul .card, .page-financement .card:focus + ul .grid:before, .page-financement .card:focus + ul .grid:after, .page-financement .card-lvl-1.card:focus:after,
 .page-financement .card:focus, .page-financement .card:active {
   -moz-box-shadow: 0 0 15px #ecd078;
   -webkit-box-shadow: 0 0 15px #ecd078;
@@ -559,7 +560,7 @@ body.initial .section .card-lvl-1:after {
   -o-transform: scale(1.1, 1.1);
   -webkit-transform: scale(1.1, 1.1);
   transform: scale(1.1, 1.1); }
-.page-financement .card-lvl-1.card:hover {
+.page-financement .card-lvl-1.card:hover, .page-financement .card-lvl-1.card:focus {
   -moz-transform: translateX(-4em);
   -ms-transform: translateX(-4em);
   -o-transform: translateX(-4em);
@@ -608,9 +609,9 @@ body.initial .section .card-lvl-1:after {
   -ms-transition: all 1s ease .1s;
   -o-transition: all 1s ease .1s;
   transition: all 1s ease .1s; }
-.page-financement a.card:active p.link span, .page-financement a.card.active p.link span, .page-financement a.card:focus p.link span, .page-financement a.card:hover p.link span {
+.page-financement a.card:active p.link span, .page-financement a.card.active p.link span, .page-financement a.card:focus p.link span, .page-financement a.card:hover p.link span, .page-financement a.card:focus p.link span {
   color: #542437; }
-.page-financement a.card:active p.link span:before, .page-financement a.card.active p.link span:before, .page-financement a.card:focus p.link span:before, .page-financement a.card:hover p.link span:before {
+.page-financement a.card:active p.link span:before, .page-financement a.card.active p.link span:before, .page-financement a.card:focus p.link span:before, .page-financement a.card:hover p.link span:before, .page-financement a.card:focus p.link span:before {
   left: .8em; }
 .page-financement .bulle {
   position: absolute;
@@ -645,7 +646,7 @@ body.initial .section .card-lvl-1:after {
   -ms-transition: opacity .3s ease .2s, transform .5s ease .2s;
   -o-transition: opacity .3s ease .2s, transform .5s ease .2s;
   transition: opacity .3s ease .2s, transform .5s ease .2s; }
-.page-financement .card:hover .bulle, .page-financement .bulle.active, .page-financement .bulle:target {
+.page-financement .card:hover .bulle, .page-financement .bulle.active, .page-financement .card:focus .bulle, .page-financement .bulle.active, .page-financement .bulle:target {
   -moz-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   -o-transform: scale(1, 1);
@@ -653,7 +654,7 @@ body.initial .section .card-lvl-1:after {
   transform: scale(1, 1);
   opacity: 1; }
 @media screen and (max-width: 1200px) and (min-width: 768px) {
-  .page-financement .section:hover .grid-container {
+  .page-financement .section:hover .grid-container, .page-financement .section:focus .grid-container {
     width: 10%; }
   .page-financement .section:hover ul {
     opacity: 0;
@@ -669,16 +670,16 @@ body.initial .section .card-lvl-1:after {
   .page-financement .section:hover .card-lvl-1:after {
     height: 0;
     bottom: 0; }
-  .page-financement .section:hover .grid-container:hover {
+  .page-financement .section:hover .grid-container:hover, .page-financement .section:hover .grid-container:focus {
     width: 80%; }
-  .page-financement .section:hover .grid-container:hover ul {
+  .page-financement .section:hover .grid-container:hover ul, .page-financement .section:focus .grid-container:focus ul {
     -moz-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
     -o-transform: scale(1, 1);
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
     opacity: 1; }
-  .page-financement .section:hover .grid-container:hover .card-lvl-1:after {
+  .page-financement .section:hover .grid-container:hover .card-lvl-1:after, .page-financement .section:focus .grid-container:focus .card-lvl-1:after {
     bottom: -1.9em;
     height: 1.9em; }
   .page-financement h3 {
@@ -698,7 +699,7 @@ body.initial .section .card-lvl-1:after {
     -ms-transition: all 1s ease .1s;
     -o-transition: all 1s ease .1s;
     transition: all 1s ease .1s; }
-  .page-financement .section:hover .grid-container:hover h3 {
+  .page-financement .section:hover .grid-container:hover h3, .page-financement .section:hover .grid-container:focus h3 {
     width: auto;
     -moz-transform: rotateZ(0) translateX(0);
     -ms-transform: rotateZ(0) translateX(0);
@@ -709,7 +710,7 @@ body.initial .section .card-lvl-1:after {
     max-height: 0;
     overflow: hidden;
     opacity: 0; }
-  .page-financement .section:hover .grid-container:hover ul .card p {
+  .page-financement .section:hover .grid-container:hover ul .card p, .page-financement .section:focus .grid-container:focus ul .card p {
     max-height: 30em;
     opacity: 1;
     -webkit-transition: all 1s ease .1s;
