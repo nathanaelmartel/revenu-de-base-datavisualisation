@@ -8,7 +8,7 @@
     
     <title><?php echo $title?></title>
     
-    <meta name="viewport" content="width=650" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     
     <meta name="application-name" content="<?php echo $title?>"/> 
 		<meta name="msapplication-TileColor" content="#FFFFFF"/> 
